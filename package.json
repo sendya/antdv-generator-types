@@ -1,0 +1,27 @@
+{
+  "name": "generator-types",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "repository": "https://github.com/vueComponent/generator-types",
+  "author": "Sendya",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc",
+    "release": "npm run build && npm publish"
+  },
+  "dependencies": {
+    "fast-glob": "^3.2.2",
+    "fs-extra": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^8.1.0"
+  }
+}
