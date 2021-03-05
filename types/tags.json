@@ -1,0 +1,1091 @@
+{
+  "a-affix": {
+    "attributes": [
+      "offsetBottom",
+      "offsetTop",
+      "target"
+    ]
+  },
+  "a-alert": {
+    "attributes": [
+      "afterClose",
+      "banner",
+      "closable",
+      "closeText",
+      "description",
+      "icon",
+      "message",
+      "showIcon",
+      "type"
+    ]
+  },
+  "a-anchor": {
+    "attributes": [
+      "affix",
+      "bounds",
+      "getContainer",
+      "offsetBottom",
+      "offsetTop",
+      "showInkInFixed",
+      "wrapperClass",
+      "wrapperStyle",
+      "getCurrentAnchor",
+      "targetOffset"
+    ]
+  },
+  "a-autocomplete": {
+    "attributes": [
+      "allowClear",
+      "autofocus",
+      "backfill",
+      "#default (自定义输入框)",
+      "options",
+      "dropdownMenuStyle",
+      "defaultActiveFirstOption",
+      "disabled",
+      "filterOption",
+      "optionLabelProp",
+      "placeholder",
+      "v-model:value",
+      "defaultOpen",
+      "open"
+    ]
+  },
+  "a-avatar": {
+    "attributes": [
+      "icon",
+      "shape",
+      "size",
+      "src",
+      "srcset",
+      "alt",
+      "loadError"
+    ]
+  },
+  "a-backtop": {
+    "attributes": [
+      "target",
+      "visibilityHeight"
+    ]
+  },
+  "a-breadcrumb": {
+    "attributes": [
+      "itemRender",
+      "params",
+      "routes",
+      "separator"
+    ]
+  },
+  "a-breadcrumb-item": {
+    "attributes": [
+      "href",
+      "overlay"
+    ]
+  },
+  "a-breadcrumb-separator": {
+    "attributes": []
+  },
+  "a-badge": {
+    "attributes": [
+      "color",
+      "count",
+      "dot",
+      "offset",
+      "overflowCount",
+      "showZero",
+      "status",
+      "text",
+      "numberStyle",
+      "title"
+    ]
+  },
+  "a-badge-ribbon": {
+    "attributes": [
+      "color",
+      "placement",
+      "text"
+    ]
+  },
+  "a-button": {
+    "attributes": [
+      "disabled",
+      "ghost",
+      "htmlType",
+      "icon",
+      "loading",
+      "shape",
+      "size",
+      "type",
+      "block"
+    ]
+  },
+  "a-calendar": {
+    "attributes": [
+      "dateCellRender",
+      "dateFullCellRender",
+      "defaultValue",
+      "disabledDate",
+      "fullscreen",
+      "locale",
+      "mode",
+      "monthCellRender",
+      "monthFullCellRender",
+      "validRange",
+      "value(v-model)",
+      "headerRender",
+      "valueFormat"
+    ]
+  },
+  "a-card": {
+    "attributes": [
+      "actions",
+      "activeTabKey",
+      "headStyle",
+      "bodyStyle",
+      "bordered",
+      "cover",
+      "defaultActiveTabKey",
+      "extra",
+      "hoverable",
+      "loading",
+      "tabList",
+      "tabBarExtraContent",
+      "size",
+      "title",
+      "type"
+    ]
+  },
+  "a-card-meta": {
+    "attributes": [
+      "avatar",
+      "description",
+      "title"
+    ]
+  },
+  "a-carousel": {
+    "attributes": [
+      "afterChange",
+      "autoplay",
+      "beforeChange",
+      "dotPosition",
+      "dots",
+      "dotsClass",
+      "easing",
+      "effect"
+    ]
+  },
+  "a-cascader": {
+    "attributes": [
+      "allowClear",
+      "autofocus",
+      "changeOnSelect",
+      "defaultValue",
+      "disabled",
+      "displayRender",
+      "expandTrigger",
+      "fieldNames",
+      "getPopupContainer",
+      "loadData",
+      "notFoundContent",
+      "options",
+      "placeholder",
+      "popupClassName",
+      "popupStyle",
+      "popupPlacement",
+      "popupVisible",
+      "showSearch",
+      "size",
+      "suffixIcon",
+      "value(v-model)"
+    ]
+  },
+  "a-checkbox": {
+    "attributes": [
+      "blur()",
+      "focus()"
+    ]
+  },
+  "a-collapse": {
+    "attributes": [
+      "activeKey(v-model)",
+      "bordered",
+      "accordion",
+      "expandIcon",
+      "expandIconPosition",
+      "destroyInactivePanel"
+    ]
+  },
+  "a-collapse-panel": {
+    "attributes": [
+      "disabled",
+      "forceRender",
+      "header",
+      "key",
+      "showArrow",
+      "extra"
+    ]
+  },
+  "a-colorpicker": {
+    "attributes": [
+      "defaultValue",
+      "config",
+      "value",
+      "locale",
+      "colorRounded",
+      "size",
+      "getPopupContainer",
+      "disabled",
+      "format"
+    ]
+  },
+  "a-comment": {
+    "attributes": [
+      "actions",
+      "author",
+      "avatar",
+      "content",
+      "datetime"
+    ]
+  },
+  "a-configprovider": {
+    "attributes": [
+      "autoInsertSpaceInButton",
+      "csp",
+      "renderEmpty",
+      "getPopupContainer",
+      "locale",
+      "pageHeader",
+      "transformCellText"
+    ]
+  },
+  "a-datepicker": {
+    "attributes": [
+      "allowClear",
+      "autofocus",
+      "dateRender",
+      "disabled",
+      "disabledDate",
+      "getCalendarContainer",
+      "locale",
+      "mode",
+      "open",
+      "placeholder",
+      "popupStyle",
+      "dropdownClassName",
+      "size",
+      "suffixIcon",
+      "inputReadOnly",
+      "align",
+      "valueFormat"
+    ]
+  },
+  "a-descriptions": {
+    "attributes": [
+      "bordered",
+      "colon",
+      "column",
+      "extra",
+      "layout",
+      "size",
+      "title"
+    ]
+  },
+  "a-divider": {
+    "attributes": [
+      "dashed",
+      "orientation",
+      "type"
+    ]
+  },
+  "a-drawer": {
+    "attributes": [
+      "closable",
+      "destroyOnClose",
+      "getContainer",
+      "maskClosable",
+      "mask",
+      "maskStyle",
+      "title",
+      "visible(v-model)",
+      "wrapClassName",
+      "wrapStyle",
+      "drawerStyle",
+      "headerStyle",
+      "bodyStyle",
+      "width",
+      "height",
+      "zIndex",
+      "placement",
+      "handle",
+      "afterVisibleChange",
+      "keyboard"
+    ]
+  },
+  "a-dropdown": {
+    "attributes": [
+      "disabled",
+      "getPopupContainer",
+      "overlay(v-slot)",
+      "overlayClassName",
+      "overlayStyle",
+      "placement",
+      "trigger",
+      "visible(v-model)"
+    ]
+  },
+  "a-dropdown-button": {
+    "attributes": [
+      "disabled",
+      "icon",
+      "overlay(v-slot)",
+      "placement",
+      "size",
+      "trigger",
+      "type",
+      "visible(v-model)"
+    ]
+  },
+  "a-empty": {
+    "attributes": [
+      "description",
+      "imageStyle",
+      "image"
+    ]
+  },
+  "a-form": {
+    "attributes": [
+      "model",
+      "rules",
+      "hideRequiredMark",
+      "labelAlign",
+      "layout",
+      "labelCol",
+      "wrapperCol",
+      "colon",
+      "validateOnRuleChange",
+      "scrollToFirstError",
+      "name",
+      "validateTrigger"
+    ]
+  },
+  "a-form-item": {
+    "attributes": [
+      "name",
+      "rules",
+      "autoLink",
+      "colon",
+      "extra",
+      "hasFeedback",
+      "help",
+      "htmlFor",
+      "label",
+      "labelCol",
+      "labelAlign",
+      "required",
+      "validateStatus",
+      "wrapperCol",
+      "validateFirst",
+      "validateTrigger"
+    ]
+  },
+  "a-grid": {
+    "attributes": []
+  },
+  "a-icon": {
+    "attributes": []
+  },
+  "a-自定义": {
+    "attributes": [
+      "style",
+      "spin",
+      "rotate",
+      "component"
+    ]
+  },
+  "a-image": {
+    "attributes": [
+      "alt",
+      "fallback",
+      "height",
+      "placeholder",
+      "preview",
+      "src",
+      "width"
+    ]
+  },
+  "a-input": {
+    "attributes": [
+      "addonAfter",
+      "addonBefore",
+      "defaultValue",
+      "disabled",
+      "id",
+      "maxlength",
+      "prefix",
+      "size",
+      "suffix",
+      "type",
+      "value(v-model)",
+      "allowClear"
+    ]
+  },
+  "a-input-text-area": {
+    "attributes": [
+      "autosize",
+      "defaultValue",
+      "value(v-model)",
+      "allowClear",
+      "showCount"
+    ]
+  },
+  "a-input-search": {
+    "attributes": [
+      "enterButton",
+      "loading"
+    ]
+  },
+  "a-input-group": {
+    "attributes": [
+      "compact",
+      "size"
+    ]
+  },
+  "a-input-password": {
+    "attributes": [
+      "visibilityToggle"
+    ]
+  },
+  "a-inputnumber": {
+    "attributes": [
+      "autofocus",
+      "defaultValue",
+      "disabled",
+      "formatter",
+      "max",
+      "min",
+      "parser",
+      "precision",
+      "decimalSeparator",
+      "size",
+      "step",
+      "value(v-model)"
+    ]
+  },
+  "a-layout": {
+    "attributes": [
+      "class",
+      "style",
+      "hasSider"
+    ]
+  },
+  "a-layout-sider": {
+    "attributes": [
+      "breakpoint",
+      "class",
+      "collapsed(v-model)",
+      "collapsedWidth",
+      "collapsible",
+      "defaultCollapsed",
+      "reverseArrow",
+      "style",
+      "theme",
+      "trigger",
+      "width",
+      "zeroWidthTriggerStyle"
+    ]
+  },
+  "a-list": {
+    "attributes": [
+      "column",
+      "gutter",
+      "xs",
+      "sm",
+      "md",
+      "lg",
+      "xl",
+      "xxl"
+    ]
+  },
+  "a-list-item": {
+    "attributes": [
+      "actions",
+      "extra"
+    ]
+  },
+  "a-list-item.-meta": {
+    "attributes": [
+      "avatar",
+      "description",
+      "title"
+    ]
+  },
+  "a-mentions": {
+    "attributes": [
+      "blur()",
+      "focus()"
+    ]
+  },
+  "a-menu": {
+    "attributes": [
+      "forceSubMenuRender",
+      "inlineCollapsed",
+      "inlineIndent",
+      "mode",
+      "multiple",
+      "openKeys(v-model)",
+      "selectable",
+      "selectedKeys(v-model)",
+      "subMenuCloseDelay",
+      "subMenuOpenDelay",
+      "theme",
+      "overflowedIndicator"
+    ]
+  },
+  "a-menu-item": {
+    "attributes": [
+      "disabled",
+      "key",
+      "title"
+    ]
+  },
+  "a-menu-sub-menu": {
+    "attributes": [
+      "popupClassName",
+      "disabled",
+      "key",
+      "title",
+      "expandIcon"
+    ]
+  },
+  "a-menu-item-group": {
+    "attributes": [
+      "title"
+    ]
+  },
+  "a-message": {
+    "attributes": [
+      "content",
+      "duration",
+      "onClose"
+    ]
+  },
+  "a-modal": {
+    "attributes": [
+      "afterClose",
+      "bodyStyle",
+      "cancelText",
+      "centered",
+      "closable",
+      "closeIcon",
+      "confirmLoading",
+      "destroyOnClose",
+      "footer",
+      "forceRender",
+      "getContainer",
+      "keyboard",
+      "mask",
+      "maskClosable",
+      "maskStyle",
+      "okText",
+      "okType",
+      "okButtonProps",
+      "cancelButtonProps",
+      "title",
+      "visible(v-model)",
+      "width",
+      "wrapClassName",
+      "zIndex",
+      "dialogStyle",
+      "dialogClass"
+    ]
+  },
+  "a-modalmethod()": {
+    "attributes": [
+      "autoFocusButton",
+      "cancelText",
+      "centered",
+      "closable",
+      "class",
+      "content",
+      "icon",
+      "mask",
+      "maskClosable",
+      "keyboard",
+      "okText",
+      "okType",
+      "okButtonProps",
+      "cancelButtonProps",
+      "title",
+      "width",
+      "zIndex",
+      "onCancel",
+      "onOk",
+      "parentContext"
+    ]
+  },
+  "a-notification": {
+    "attributes": [
+      "btn",
+      "bottom",
+      "class",
+      "description",
+      "duration",
+      "getContainer",
+      "icon",
+      "key",
+      "message",
+      "placement",
+      "style",
+      "onClose",
+      "onClick",
+      "top",
+      "closeIcon"
+    ]
+  },
+  "a-pageheader": {
+    "attributes": [
+      "title",
+      "subTitle",
+      "ghost",
+      "avatar",
+      "backIcon",
+      "tags",
+      "extra",
+      "breadcrumb",
+      "footer"
+    ]
+  },
+  "a-pagination": {
+    "attributes": [
+      "current(v-model)",
+      "pageSize(v-model)",
+      "defaultPageSize",
+      "disabled",
+      "hideOnSinglePage",
+      "itemRender",
+      "pageSizeOptions",
+      "showLessItems",
+      "showQuickJumper",
+      "showSizeChanger",
+      "showTotal",
+      "simple",
+      "size",
+      "total"
+    ]
+  },
+  "a-popconfirm": {
+    "attributes": [
+      "cancelText",
+      "okText",
+      "okType",
+      "title",
+      "icon",
+      "disabled"
+    ]
+  },
+  "a-popover": {
+    "attributes": [
+      "content",
+      "title"
+    ]
+  },
+  "a-progress": {
+    "attributes": [
+      "type",
+      "format",
+      "percent",
+      "showInfo",
+      "status",
+      "strokeLinecap",
+      "strokeColor",
+      "successPercent"
+    ]
+  },
+  "a-radio": {
+    "attributes": [
+      "blur()",
+      "focus()"
+    ]
+  },
+  "a-radio-group": {
+    "attributes": [
+      "defaultValue",
+      "disabled",
+      "name",
+      "options",
+      "size",
+      "value(v-model)",
+      "buttonStyle"
+    ]
+  },
+  "a-rate": {
+    "attributes": [
+      "allowClear",
+      "allowHalf",
+      "autofocus",
+      "character",
+      "count",
+      "disabled",
+      "tooltips",
+      "value(v-model)"
+    ]
+  },
+  "a-result": {
+    "attributes": [
+      "title",
+      "subTitle",
+      "status",
+      "icon",
+      "extra"
+    ]
+  },
+  "a-select": {
+    "attributes": [
+      "blur()",
+      "focus()"
+    ]
+  },
+  "a-skeleton": {
+    "attributes": [
+      "active",
+      "avatar",
+      "loading",
+      "paragraph",
+      "title"
+    ]
+  },
+  "a-skeleton-avatar-props": {
+    "attributes": [
+      "size",
+      "shape"
+    ]
+  },
+  "a-skeleton-title-props": {
+    "attributes": [
+      "width"
+    ]
+  },
+  "a-skeleton-paragraph-props": {
+    "attributes": [
+      "rows",
+      "width"
+    ]
+  },
+  "a-slider": {
+    "attributes": [
+      "autofocus",
+      "disabled",
+      "dots",
+      "included",
+      "marks",
+      "max",
+      "min",
+      "range",
+      "reverse",
+      "step",
+      "tipFormatter",
+      "value(v-model)",
+      "vertical",
+      "tooltipPlacement",
+      "tooltipVisible",
+      "getTooltipPopupContainer"
+    ]
+  },
+  "a-space": {
+    "attributes": [
+      "align",
+      "direction",
+      "size"
+    ]
+  },
+  "a-spin": {
+    "attributes": [
+      "delay",
+      "indicator",
+      "size",
+      "spinning",
+      "tip",
+      "wrapperClassName"
+    ]
+  },
+  "a-statistic": {
+    "attributes": [
+      "decimalSeparator",
+      "formatter",
+      "groupSeparator",
+      "precision",
+      "prefix",
+      "suffix",
+      "title",
+      "value",
+      "valueStyle"
+    ]
+  },
+  "a-statistic-countdown": {
+    "attributes": [
+      "format",
+      "prefix",
+      "suffix",
+      "title",
+      "value",
+      "valueStyle"
+    ]
+  },
+  "a-steps": {
+    "attributes": [
+      "type",
+      "current (v-model)",
+      "direction",
+      "labelPlacement",
+      "progressDot",
+      "size",
+      "status",
+      "initial"
+    ]
+  },
+  "a-steps-step": {
+    "attributes": [
+      "description",
+      "icon",
+      "status",
+      "title",
+      "subTitle",
+      "disabled"
+    ]
+  },
+  "a-switch": {
+    "attributes": [
+      "autofocus",
+      "checked(v-model)",
+      "checkedChildren",
+      "defaultChecked",
+      "disabled",
+      "loading",
+      "size",
+      "unCheckedChildren"
+    ]
+  },
+  "a-table": {
+    "attributes": [
+      "tableLayout",
+      "bordered",
+      "childrenColumnName",
+      "columns",
+      "components",
+      "dataSource",
+      "defaultExpandAllRows",
+      "defaultExpandedRowKeys",
+      "expandedRowKeys",
+      "expandedRowRender",
+      "expandIcon",
+      "expandRowByClick",
+      "expandIconColumnIndex",
+      "footer",
+      "indentSize",
+      "loading",
+      "locale",
+      "pagination",
+      "rowClassName",
+      "rowKey",
+      "rowSelection",
+      "scroll",
+      "showHeader",
+      "size",
+      "title",
+      "customHeaderRow",
+      "customRow",
+      "getPopupContainer",
+      "transformCellText"
+    ]
+  },
+  "a-tabs": {
+    "attributes": [
+      "activeKey(v-model)",
+      "animated",
+      "defaultActiveKey",
+      "hideAdd",
+      "size",
+      "tabBarExtraContent",
+      "tabBarStyle",
+      "tabPosition",
+      "type",
+      "tabBarGutter"
+    ]
+  },
+  "a-tabs-tab-pane": {
+    "attributes": [
+      "forceRender",
+      "key",
+      "tab"
+    ]
+  },
+  "a-tag": {
+    "attributes": [
+      "closable",
+      "closeIcon",
+      "color",
+      "icon",
+      "visible(v-model)"
+    ]
+  },
+  "a-tag-checkable-tag": {
+    "attributes": [
+      "checked(v-model)"
+    ]
+  },
+  "a-timepicker": {
+    "attributes": [
+      "addon",
+      "allowClear",
+      "autofocus",
+      "clearText",
+      "defaultOpenValue",
+      "defaultValue",
+      "disabled",
+      "disabledHours",
+      "disabledMinutes",
+      "disabledSeconds",
+      "format",
+      "getPopupContainer",
+      "hideDisabledOptions",
+      "hourStep",
+      "inputReadOnly",
+      "minuteStep",
+      "open(v-model)",
+      "placeholder",
+      "popupClassName",
+      "popupStyle",
+      "secondStep",
+      "suffixIcon",
+      "clearIcon",
+      "use12Hours",
+      "value(v-model)",
+      "align",
+      "valueFormat"
+    ]
+  },
+  "a-timeline": {
+    "attributes": [
+      "pending",
+      "pendingDot",
+      "reverse",
+      "mode"
+    ]
+  },
+  "a-timeline-item": {
+    "attributes": [
+      "color",
+      "dot",
+      "position"
+    ]
+  },
+  "a-tooltip": {
+    "attributes": [
+      "title",
+      "arrowPointAtCenter",
+      "autoAdjustOverflow",
+      "color",
+      "defaultVisible",
+      "getPopupContainer",
+      "mouseEnterDelay",
+      "mouseLeaveDelay",
+      "overlayClassName",
+      "overlayStyle",
+      "placement",
+      "trigger",
+      "visible(v-model)",
+      "destroyTooltipOnHide",
+      "align"
+    ]
+  },
+  "a-transfer": {
+    "attributes": [
+      "dataSource",
+      "disabled",
+      "filterOption",
+      "footer",
+      "lazy",
+      "listStyle",
+      "locale",
+      "operations",
+      "render",
+      "selectedKeys",
+      "showSearch",
+      "showSelectAll",
+      "targetKeys",
+      "titles"
+    ]
+  },
+  "a-tree": {
+    "attributes": [
+      "blockNode",
+      "treeData",
+      "replaceFields",
+      "autoExpandParent",
+      "checkable",
+      "checkedKeys(v-model)",
+      "checkStrictly",
+      "defaultExpandAll",
+      "disabled",
+      "draggable",
+      "expandedKeys(v-model)",
+      "filterTreeNode",
+      "loadData",
+      "loadedKeys",
+      "multiple",
+      "selectable",
+      "selectedKeys(v-model)",
+      "showIcon",
+      "switcherIcon",
+      "showLine",
+      "title"
+    ]
+  },
+  "a-tree-node": {
+    "attributes": [
+      "class",
+      "style",
+      "checkable",
+      "disableCheckbox",
+      "disabled",
+      "icon",
+      "isLeaf",
+      "key",
+      "selectable",
+      "title",
+      "slots"
+    ]
+  },
+  "a-directory-tree": {
+    "attributes": [
+      "expandAction"
+    ]
+  },
+  "a-treeselect": {
+    "attributes": []
+  },
+  "a-upload": {
+    "attributes": [
+      "accept",
+      "action",
+      "method",
+      "directory",
+      "beforeUpload",
+      "customRequest",
+      "data",
+      "disabled",
+      "fileList",
+      "headers",
+      "listType",
+      "multiple",
+      "name",
+      "previewFile",
+      "showUploadList",
+      "supportServerRender",
+      "withCredentials",
+      "openFileDialogOnClick",
+      "remove",
+      "transformFile"
+    ]
+  }
+}

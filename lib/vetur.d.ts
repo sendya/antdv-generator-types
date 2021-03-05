@@ -1,3 +1,3 @@
-import { VueTag } from './type';
-export declare function genVeturTags(tags: VueTag[]): Record<string, import("./type").VeturTag>;
-export declare function genVeturAttributes(tags: VueTag[]): Record<string, import("./type").VeturAttribute>;
+import { VueTag, VeturTags, VeturAttributes } from './type';
+export declare function genVeturTags(tags: VueTag[]): VeturTags;
+export declare function genVeturAttributes(tags: VueTag[]): VeturAttributes;
